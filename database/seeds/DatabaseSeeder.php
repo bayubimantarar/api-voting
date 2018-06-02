@@ -11,6 +11,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call('UsersTableSeeder');
+        $this->call('rc_kecamatan');
+        $this->call('rc_kelurahan');
+        $this->call('rc_kota_kab');
+        $this->call('rc_paslon');
+        $this->call('rc_saksi');
+        $this->call('rc_tps');
+        $this->call('rc_user');
     }
 }
